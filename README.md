@@ -16,7 +16,8 @@
 ### What should you do (Feature View)
 #####This is the feature that i want u create recyclerView adapter to show UI like this bellow pic
 - Data is from api if u finish the second api feature, u need to reserved scalability.
-
+- Don't need to handle click event , but please think about multiple choice case
+- Color is ready in project
 
 ![Image of Yaktocat](http://i.imgur.com/YVXFTD7.png)
 
@@ -27,11 +28,10 @@
 
 ## Note
 
-| Title    |      Are      |  Cool |
-|----------|:-------------:|------:|
-| col 1 is |  left-aligned | $1600 |
-| col 2 is |    centered   |   $12 |
-| col 3 is | right-aligned |    $1 |
+| attr        |   mean      |
+|----------   |------:      |
+| pink_title  | title color |
+| text_color  |  text color |
 
 
 
