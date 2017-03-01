@@ -9,27 +9,7 @@ import android.os.HandlerThread;
 
 public class DataSource {
     private String data = "Get data fail";
-    private String adapterData = "  {\n" +
-            "    \"title\": \"ChocoTestV1\",\n" +
-            "    \"sectionType\":\"multiple\",\n" +
-            "    \"types\": [\n" +
-            "      {\n" +
-            "        \"typeName\": \"test1\"\n" +
-            "      },\n" +
-            "      {\n" +
-            "        \"typeName\": \"test2\"\n" +
-            "      },\n" +
-            "      {\n" +
-            "        \"typeName\": \"test3\"\n" +
-            "      },\n" +
-            "      {\n" +
-            "        \"typeName\": \"test4\"\n" +
-            "      },\n" +
-            "      {\n" +
-            "        \"typeName\": \"test5\"\n" +
-            "      }\n" +
-            "    ]\n" +
-            "  }";
+    private String adapterData;
 
     public interface OnDataLoaded {
         void done();
@@ -60,7 +40,10 @@ public class DataSource {
         return data;
     }
 
-    //TODO
+    public void setAdapterData(String adapterData) {
+        this.adapterData = adapterData;
+    }
+
     public String getAdapterData() {
         return adapterData;
     }
