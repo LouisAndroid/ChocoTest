@@ -1,32 +1,29 @@
 # ChocoLabs Test v1
 
-## Get started
+## Getting start
+- Here is the sample workflow of this Android project: "MainActivity.java" get test data from "TestManager.java" and "DataSource.java" provides data to "TestManager.java". You can consider the "TestManager.java" is an interface between "MainActivity.java" and "DataSource.java".
 
-- Here is the sample flow , "MainActivity" get data from "TestManager" , Also DataSource is the data source.
+### What you need to do is refactoring
+- Try to optimize "TestManager.java" whatever you want.
 
-### What should you do (Refactor)
-- Try to optimization TestManager any condition you have to handle.
-- Here is the problem that MainActivity getData is "Get data fail" , but i want you try to get "Get Data success".
+### What you need to fix
+- You will encounter a problem that already existed on "getData" function in "MainActivity.java" and it causes the result of "Get data fail". We need you to fix that problem and get result of "Get data success".
 
-### What should you do (Feature API)(Use Retrofit GSON)
-##### Please create get API data
-- http://www.mocky.io/v2/58b69fc6110000d4109c41f4
-- try to get the data in TestManager also need to handle cache
+### What method you need to implement
+- Use "Retrofit" and "GSON" library to parse data from "http://www.mocky.io/v2/58b69fc6110000d4109c41f4". 
 
-### What should you do (Feature View)
-#####This is the feature that i want u create recyclerView adapter to show UI like this bellow pic
-- Data is from api if u finish the second api feature, u need to reserved scalability.
-- Don't need to handle click event , but please think about multiple choice case
-- Color is ready in project
-
+### What feature you need to implement
+- You need to create a "recyclerView adapter" to display UI as following picture.
 ![Image of Yaktocat](http://i.imgur.com/YVXFTD7.png)
+- All the data are comes from the method that we need you to implement above.
+- You don't need to handle click event in "recyclerView adapter".
+- Color style is already existed on "res" folder.
 
-
-## IDE
+### IDE
 - Android Studio
 
 
-## Note
+### Note
 
 | attr        |   mean      |
 |----------   |------:      |
