@@ -1,7 +1,7 @@
 # ChocoLabs Test v1
 
 ## Getting start
-- Here is the sample workflow of this Android project: "MainActivity.java" get test data from "TestManager.java" and "DataSource.java" provides data to "TestManager.java". You can consider the "TestManager.java" is an interface between "MainActivity.java" and "DataSource.java".
+- Here is the simple workflow of this Android project: "MainActivity.java" get test data from "TestManager.java" and "DataSource.java" provides data to "TestManager.java". You can consider the "TestManager.java" is an interface between "MainActivity.java" and "DataSource.java".
 
 ### What you need to do is refactoring
 - Try to optimize "TestManager.java" whatever you want.
